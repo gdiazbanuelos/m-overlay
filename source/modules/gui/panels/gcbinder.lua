@@ -1,5 +1,5 @@
 local memory = require("memory")
-
+local log = require("log")
 local PANEL = class.create("GCBinder", "Button")
 
 PANEL.BUTTONS = {
